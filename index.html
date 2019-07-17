@@ -1,263 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Federico Badaloni, Msc. Computer Science Student and software developer.</title>
+    <title>Federico Badaloni, Software Developer</title>
+    
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal website for Federico Badaloni.">
-    <meta name="author" content="Federico Badaloni">    
+    <meta name="description" content="Responsive HTML5 Resume/CV Template for Developers">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
     <link rel="shortcut icon" href="favicon.ico">  
-    
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
-    
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <!-- FontAwesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
-    
     <!-- Global CSS -->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
-    
-    <!-- github calendar css -->
-    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
-    <!-- github acitivity css -->    
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-    <link rel="stylesheet" href="assets/plugins/github-activity/github-activity-0.1.5.min.css">
-    
     <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-    
+    <!----><link id="theme-style" rel="stylesheet" href="assets/css/orbit-1.css">
 </head> 
 
 <body>
-    <!-- ******HEADER****** --> 
-    <header class="header">
-        <div class="container clearfix">                       
-            <img class="profile-image img-fluid float-left" src="assets/images/profile.png" alt="James Lee" />
-            <div class="profile-content float-left">
+    <div class="wrapper">
+        <div class="sidebar-wrapper">
+            <div class="profile-container">
+                <img class="profile" src="assets/images/profile.png" alt="" />
                 <h1 class="name">Federico Badaloni</h1>
-                <h2 class="desc">Msc. Computer Science Student and software developer.</h2>   
-                <ul class="social list-inline">
-                    <li class="list-inline-item"><a href="https://twitter.com/Fede_Bada"><i class="fab fa-twitter"></i></a></li>
-                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/federico-badaloni-7064a715a/"><i class="fab fa-linkedin-in"></i></a></li>
-                    <li class="list-inline-item"><a href="https://t.me/QuanticPotato"><i class="fab fa-telegram"></i></a></li>
-                    <li class="list-inline-item last-item"><a href="https://github.com/QPotato"><i class="fab fa-github-alt"></i></a></li>        
-                </ul> 
-            </div><!--//profile-->
-            <a class="btn btn-cta-primary float-right" href="mailto: federico@badaloni.com.ar" target="_blank"><i class="fas fa-paper-plane"></i>Contact Me</a>              
-        </div><!--//container-->
-    </header><!--//header-->
-    
-    <div class="container sections-wrapper">
-        <div class="row">
-            <div class="primary col-lg-8 col-12">
-                <section class="about section">
-                    <div class="section-inner">
-                        <h2 class="heading">About Me</h2>
-                        <div class="content">
-                            <p>I'm a Computer Science student, working on the software industry. I started coding videogames when I was 14 and since then, programming has been my passion. I'm currently learning about cryptocurrencies, open blockchains and descentralized platforms. </p>
-                         
-                        </div><!--//content-->
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
-                <section class="latest section">
-                    <div class="section-inner">
-                        <h2 class="heading">My Projects</h2>
-                        <div class="content">
-
-                            <div class="item featured text-center">
-                                <h3 class="title"><a href="#" target="_blank">pyenlone</a></h3>
-                                <p class="summary">A Python3 wrapper for enl.one APIs.</p>
-                                <div class="featured-image has-ribbon">
-                                    <a href="https://github.com/QPotato/pyenlone" target="_blank">
-                                    <img class="img-fluid project-image" src="assets/images/projects/project-pyenlone.png" alt="project pyenlone" />
-                                    </a>
-                                    <div class="ribbon">
-                                        <div class="text">New</div>
-                                    </div>
-                                </div>
-
-                                <div class="desc text-left">                                    
-                                    <p>Aimed for Ingress enlightened devs who want to integrate enl.one APIs in their Python scripts. This was a fun experience of building and distributing a library!</p>
-                                </div><!--//desc-->
-                                <p><a class="more-link" href="https://github.com/QPotato/pyenlone" target="_blank"><i class="fas fa-external-link-alt"></i>View on GitHub</a></p>
-                            </div><!--//item-->
-                            <hr class="divider" />
-                            <div class="item row">
-                                <a class="col-md-4 col-12" href="https://github.com/QPotato/ManaOS" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-ManaOS.png" alt="project ManaOS" />
-                                </a>
-                                <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="https://github.com/QPotato/ManaOS" target="_blank">ManaOS</a></h3>
-                                    <p class="mb-2">A C++ MIPS Operative System based on NachOS. This was a project in collaboration with Ivo Elbert, on wich we applied concepts of multithreading, kernel vs user spaces, virtual memory, load on demand and much more!</p>
-                                    <p><a class="more-link" href="https://github.com/QPotato/ManaOS" target="_blank"><i class="fas fa-external-link-alt"></i>View on GitHub</a></p>
-                                </div><!--//desc-->                          
-                            </div><!--//item-->
-                            <hr class="divider" />
-                            <div class="item row">
-                                <a class="col-md-4 col-12" href="#" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-potatobot.png" alt="project potatobot" />
-                                </a>
-                                <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="#" target="_blank"></a>GreenPotatoBot</h3>
-                                    <p class="mb-2">A hobby project I did to learn how to fully setup a production-standard system on Google App Engine. Currently used by hundreds of Ingress players around the world! Because Ingress is a game all about secret planning of operations, the bot included fully customizable privacy features that allowed users to ahve control over their data.</p>
-                                    
-                                </div><!--//desc-->                          
-                            </div><!--//item-->  
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->
-                </section><!--//section-->
+                <h3 class="tagline">Software Developer</h3>
+            </div><!--//profile-container-->
+            
+            <div class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+                    <li class="email"><i class="fas fa-envelope"></i><a href="mailto: federico@badaloni.com.ar">federico@badaloni.com.ar</a></li>
+                    <li class="phone"><i class="fas fa-phone"></i><a href="tel:543413763093">+543413763093</a></li>
+                    <li class="website"><i class="fas fa-globe"></i><a href="https://fedebadaloni.me">fedebadaloni.me</a></li>
+                    <li class="github"><i class="fab fa-github"></i><a href="https://www.github.com/QPotato" target="_blank">github.com/QPotato</a></li>
+                </ul>
+            </div><!--//contact-container-->
+            <div class="education-container container-block">
+                <h2 class="container-block-title">Education</h2>
+                <div class="item">
+                    <h4 class="degree">MSc in Computer Science</h4>
+                    <h5 class="meta">University of Rosario</h5>
+                    <div class="time">2013 - Ongoing</div>
+                </div><!--//item-->
+            </div><!--//education-container-->
+            
+            <div class="languages-container container-block">
+                <h2 class="container-block-title">Languages</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Spanish <span class="lang-desc">(Native)</span></li>
+                    <li>English <span class="lang-desc">(Professional)</span></li>
+                </ul>
+            </div><!--//interests-->
+            
+            <div class="interests-container container-block">
+                <h2 class="container-block-title">Interests</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Music</li>
+                    <li>Videogames</li>
+                </ul>
+            </div><!--//interests-->
+            
+        </div><!--//sidebar-wrapper-->
+        
+        <div class="main-wrapper">
+            
+            <section class="section summary-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-user"></i></span>Career Profile</h2>
+                <div class="summary">
+                    <p>I'm a Computer Science student in my last year in college, currently working freelance as fullstack developer. I contribute on Open Source projects on github and learn about blockchain technologies in my free time.</p>
+                    <p>I'm also a fan of chat bots and mantain a few personal projects that implement bots for Twitter and Telegram. This helped me to familiarize with REST APIs and gain infrastructure operation skills.</p>
+                </div><!--//summary-->
+            </section><!--//section-->
+            
+            <section class="section experiences-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-briefcase"></i></span>Experiences</h2>
                 
-                <section class="experience section">
-                    <div class="section-inner">
-                        <h2 class="heading">Work Experience</h2>
-                        <div class="content">
-                            <div class="item">
-                                <h3 class="title">Backend Developer - <span class="place"><a href="https://www.cedir.com.ar">Cedir</a></span> <span class="year">(2018 - Present)</span></h3>
-                                <p>I'm developing a Python/Django REST API backend for a medical clinic. I also do system administration and operations.</p>
-                            </div><!--//item-->
-                            
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
-                <section class="github section">
-                    <div class="section-inner">
-                        <h2 class="heading">My GitHub</h2>
-                        <!-- Include the library. -->
-                        <script
-                        src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
-                        ></script>
-
-                        <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-
-                        <!-- Prepare a container for your calendar. -->
-                        <div class="calendar">
-                            <!-- Loading stuff -->
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Freelance Fullstack Developer</h3>
+                            <div class="time">2016 - Present</div>
                         </div>
-                        <script>
-                            GitHubCalendar(".calendar", "QPotato", {responsive: true});
-                        </script>
-                    </div><!--//secton-inner-->
-                </section><!--//section-->
-            </div><!--//primary-->
-            <div class="secondary col-lg-4 col-12">
-                 <aside class="info aside section">
-                    <div class="section-inner">
-                        <h2 class="heading sr-only">Basic Info</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Rosario, AR</li>
-                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="mailto: federico@badaloni.com.ar">federico@badaloni.com.ar</a></li>
-                                <li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="https://www.fedebadaloni.me">https://www.fedebadaloni.me</a></li>
-                            </ul>
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </aside><!--//aside-->
-                
-                <aside class="skills aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Skills</h2>
-                        <div class="content">
-                            <p class="intro">
-                                I'm always eager to learn new languages and technologies!</p>
-                            
-                            <div class="skillset">
-                               
-                                <div class="item">
-                                    <h3 class="level-title">Python &amp; Django<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="My main language!"><i class="fas fa-info-circle"></i>Expert</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="85%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">C &amp; C++<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="I worked on complete OSs, I've made games... It was my first language!"><i class="fas fa-info-circle"></i>Advanced</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="70%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">Blockchains<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="I've used jQuery many times, but never in a big project."><i class="fas fa-info-circle"></i>Learning</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="35%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">Node.js<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="I'm looking forward to learn more Node!"><i class="fas fa-info-circle"></i>Learning</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="35%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-                                
-                            </div>              
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </aside><!--//section-->
-                
-                <aside class="education aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Education</h2>
-                        <div class="content">
-                            <div class="item">                      
-                                <h3 class="title"><i class="fas fa-graduation-cap"></i> Mscr. Computer Science</h3>
-                                <h4 class="university">Universidad Nacional de Rosario <span class="year">(2013-Present)</span></h4>
-                            </div><!--//item-->
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-                            
-                <aside class="languages aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Languages</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li class="item">
-                                    <span class="title"><strong>Spanish:</strong></span>
-                                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
-                                </li><!--//item-->
-                                <li class="item">
-                                    <span class="title"><strong>English:</strong></span>
-                                    <span class="level">Cambridge FCE <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half"></i></span>
-                                </li><!--//item-->
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-                
-              
-            </div><!--//secondary-->    
-        </div><!--//row-->
-    </div><!--//masonry-->
-    
-    <!-- ******FOOTER****** --> 
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>I started my freelance career in 2016 programming electronic books for <a href="www.bibliele.com">bibliele.com</a>. This project was a standalone windows app with a Python server and a XULRunner UI. This project was shipped and is currently being commercialized.</p>  
+                        <p>My current main client since mid-2018 is <a href="www.cedir.com.ar">cedir.com.ar</a>. I mainly work on the Django backend and REST API but I also do smalll fixes on the React-Redux frontend for internal tools.</p>
+                    </div><!--//details-->
+                </div><!--//item-->
+            </section>
+            
+            <section class="section projects-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-archive"></i></span>Projects</h2>
+                <div class="intro">
+                    <p>These are some of the Open Source or personal projects I worked on.</p>
+                </div><!--//intro-->
+                <div class="item">
+                    <span class="project-title"><a href="#hook">Wasabee</a></span> -
+                    <span class="project-tagline">An Open Source strategy planning tool for ingress players. I'm a main contributor and helped refactor the complete codebase introducing module bundlers and build tools.</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="" target="_blank">ManaOS</a></span> - 
+                    <span class="project-tagline">An Operative System for MIPS arquitectures. Coded in C++ as a college project.</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="" target="_blank">Enlightned Offtopic Telegram Bot</a></span> - 
+                    <span class="project-tagline">A Telegram bot for argentian ingress players.</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="" target="_blank">Libra Explorer Telegram Bot</a></span> - 
+                    <span class="project-tagline">A Telegram bot that works a block explorer for the Libra Network testnet.</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="" target="_blank">pyenlone</a></span> - 
+                    <span class="project-tagline">A Python 3 wrapper for <a href="v.enl.one">v.enl.one</a>'s REST API. </span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="" target="_blank">enlonejs</a></span> - 
+                    <span class="project-tagline">A Typescript wrapper for <a href="v.enl.one">v.enl.one</a>'s REST API. </span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="" target="_blank">tigerust</a></span> - 
+                    <span class="project-tagline">A Tiger compiler code in Rust.</span>
+                </div><!--//item-->
+            </section><!--//section-->
+            
+            <section class="skills-section section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-rocket"></i></span>Skills &amp; Proficiency</h2>
+                <div class="skillset">        
+                    <div class="item">
+                        <h3 class="level-title">Python &amp; Django</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                               
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title"> Javascript, Typescript &amp; NodeJS</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                              
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">HTML5 &amp; CSS</h3>
+                        <div class="progress level-bar">
+							    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 58%" aria-valuenow="58" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">Infrastructure Operation</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                  
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">C/C++</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 60%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                  
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">Rust</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                  
+                    </div><!--//item-->
+                    
+                </div>  
+            </section><!--//skills-section-->
+            
+        </div><!--//main-body-->
+    </div>
     <footer class="footer">
-        <div class="container text-center">
-                <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out our commercial license options via our website: themes.3rdwavemedia.com */-->
-                <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+        <div class="text-center">
+                <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
+                <small class="copyright">Adapted from <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a></small>
         </div><!--//container-->
     </footer><!--//footer-->
- 
-    <!-- Javascript -->          
-    <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
-    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
-    <!-- github calendar plugin -->
-    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
-  
-    <!-- github activity plugin -->
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/github-activity/github-activity-0.1.5.min.js"></script>
-    <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>            
+        
 </body>
 </html> 
 
